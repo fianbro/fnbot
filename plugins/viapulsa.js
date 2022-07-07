@@ -2,29 +2,12 @@ let handler = async (m, { conn }) => {
 	conn.reply(m.chat, `╠═〘 PEMBAYARAN 〙 ═
 ╠═ Untuk Pembayaran Via Pulsa
 ╠➥ Ke nomer ini
-║➥ 085822347348
-║
-╠═〘 Fitur 〙 ═
-║
-╠➥ *FITUR DOWNLOADER 500++*
-║     *YouTube, Twitter,* 
-║     *Tiktok, Instagram, dll.*
-║    *FITUR STIKER*
-╠➥ *FITUR ADMIN*
-║    *KICK ORANG*
-║    *JADIIN ADMIN*
-╠➥ *FITUR ISLAM*
-║   *QURAN*
-║   *CEK JADWAL SHALAT*
-╠➥ *INTERNET*
-║   *BRAINLY*
-║   *GOOGLE*
-╠➥ *DAN 200 LEBIH*
-║   *FITUR LAINNYA*
+║➥ 081331954019
+╠═ Tidak menjual apapun (tergantung orangnya), lebih lengkapnya hubungi nomer diatas
 ║ 
-╠═ ©2022 
-╠═ Scrip original by ArullOfc
-╠═〘 ArullBotzMD 〙 ═`.trim(), m)
+╠═ ©2022
+╠═ Scrip Mod by FnCode
+╠═〘 Amigos 〙 ═`.trim(), m)
 }
 
 handler.command = /^viapulsa$/i
