@@ -48,15 +48,6 @@ const defaultMenu = {
 ╭──〔  THANKS TO  〕─⬣
 ⫹⫺ Allah SWT
 ⫹⫺ Orang Tua
-⫹⫺ Kesabaran
-⫹⫺ Penyemangat
-⫹⫺ Nurutomo
-⫹⫺ Ilmanhdyt
-⫹⫺ Elyas
-⫹⫺ Hyzer
-⫹⫺ KrizynOfc
-⫹⫺ RielgansOfc
-⫹⫺ ArullOfc
 ╰─────────────⬣
 `,
 }
@@ -554,8 +545,8 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
            {
              quickReplyButton: {
-               displayText: ' Thanks To',
-               id: '.tqto',
+               displayText: ' Aku ora ngerti',
+               id: '.fn',
              }
            }]
          }
@@ -572,9 +563,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
     throw e
   }
 }
-handler.help = ['Krizyn']
+handler.help = ['oi']
 handler.tags = ['main']
-handler.command = /^(alive|panel|krizyn|menu|help|\?)$/i
+handler.command = /^(alive|panel|oi|menu|help|\?)$/i
 handler.register = true
 handler.owner = false
 handler.mods = false
